@@ -1,0 +1,27 @@
+#layout{
+		height: auto;
+		width: 784px;
+		float: none;
+	}
+#header{
+		height: 200px;
+		width: 784px;
+		float: left;
+		background-image: url(https://i.pinimg.com/originals/2f/2b/e0/2f2be0d4f495610e20daf6918a446dd3.jpg);
+	}
+#nav {
+		width: 200px;
+		height: auto;
+		float: left;
+
+	}
+#section{
+		width: 584px;
+		height: auto;
+		float: left;
+		background-color: #ff6666;
+	}
+		
+
+
+
