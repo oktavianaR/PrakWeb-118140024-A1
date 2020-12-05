@@ -1,0 +1,20 @@
+{
+    "dataDiri": {
+      "nama": {
+        "awal": "Oktaviana",
+        "tengah": "Rinda",
+        "akhir": "Sari"
+      },
+      "jeniskelamin": "Perempuan",
+      "hobi": "makan dan traveling",
+      "alamat": {
+        "desa": "Giliklopomulyo",
+        "kecamatan": "Sekampung",
+        "kabupaten": "Lampung Timur"
+      },
+      "socialMedia": {
+        "facebook": "Oktaviana Rinda Sari",
+        "instagram": "rindaooo"
+      }
+    }
+  }
