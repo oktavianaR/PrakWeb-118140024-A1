@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 2</title>
+</head>
+<body>
+    <input type="text" name="barang">
+    <button onclick="tambah()">Tambah</button>
+    <ul id="ul" class="list-barang">
+        <li id="1">Buku Tulis | <a onclick="edit('1')">Edit</a> | <a onclick="hapus(1)">Hapus</a></li>
+        <li id="2">Pena | <a onclick="edit('2')">Edit</a> | <a onclick="hapus(2)">Hapus</a></li>
+    </ul>
+</body>
+<script>
+    console.log(document.getElementsByName("barang").value);
+    console.log(document.getElementsByClassName("list-barang"));
+    console.log(document.getElementsByTagNameNS("http://www.w3.org/1999/xhtml", li));
+    console.log(document.querySelector("button"));
+    console.log(document.querySelectorAll("li"));
+</script>
+</html>
