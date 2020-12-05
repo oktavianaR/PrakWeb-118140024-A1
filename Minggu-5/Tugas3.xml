@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Oktaviana</awal>
+        <tengah>Rinda</tengah>
+        <akhir>Sari</akhir>
+    </nama>
+    <jeniskelamin>Perempuan</jeniskelamin>
+    <hobi>Makan dan Traveling</hobi>
+    <alamat>
+        <desa>Giliklopomulyo</desa>
+        <kecamatan>Sekampung</kecamatan>
+        <kabupaten>Lampung Timur</kabupaten>
+    </alamat>
+    <socialMedia>
+        <facebook>Oktaviana Rinda Sari</facebook>
+        <instagram>rindaooo</instagram>
+    </socialMedia>
+</dataDiri>
