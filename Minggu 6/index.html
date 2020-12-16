@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Minggu-6</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <form method="post" id="form_mahasiswa">
+        <label>NIM</label>
+        <input type="number" name="nim" id="idnim"><br>
+        <label>Nama</label>
+        <input type="text" name="nama" id="idnama"><br>
+        <label>Prodi</label>
+        <select name="prodi" id="idprodi">
+            <option value="IF">Teknik Informatika</option>
+            <option value="ME">Teknik Mesin</option>
+            <option value="EL">Teknik Elektro</option>
+            <option value="SI">Teknik Sipil</option>
+            <option value="SAK">Sains Atmosfir Keplanetan</option>
+        </select><br>
+        <label>Angkatan</label>
+        <select name="angkatan" id="idangkatan">
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+        </select>
+    </form>
+    <button id="btn_tampil">Tambah</button>
+    <br><br>
+    <div id="tampil_data"></div>
+    <script>
+        $(document).ready(function(){
+            $('#tampil_data').load("read.php");
+            $('#btn_tampil').click(function(){
+                var data = $('#form_mahasiswa').serialize();
+                $.ajax({
+                    type    : 'POST',
+                    url :"create.php",
+                    data: data,
+                    cache   : false,
+                    success : function(data){
+                        $('#tampil_data').load("read.php");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
